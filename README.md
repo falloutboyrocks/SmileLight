@@ -5,8 +5,7 @@ process now:
 Record frames using webcam and determine whether the person is smiling or not.
 
    
-usage    
-   
+usage:   
 1.to execute:     
 	go to the code folder   
 	python main.py   

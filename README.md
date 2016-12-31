@@ -1,18 +1,18 @@
-Smile Light Project
+**Smile Light Project**
 
 
-process now
+process now:    
 
 Record frames using webcam and determine whether the person is smiling or not.
 
 
-usage
+usage    
 
-1.to execute: 
-	go to the code folder
-	python main.py
-2.to terminate:
-	ESC
-3.output
-	: ) indicates you're smiling
-	: ( indicates you're not smiling
+1.to execute:     
+	go to the code folder   
+	python main.py   
+2.to terminate:   
+	ESC   
+3.output   
+	: ) indicates you're smiling   
+	: ( indicates you're not smiling   

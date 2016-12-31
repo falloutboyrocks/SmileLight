@@ -14,7 +14,6 @@ class Logistic(object):
     P(C|phi_n) = sigmoid(w.T * phi_n)
     """
     def evaluate(self,phi_n):
-    	print np.dot(self.weights, phi_n.T)
         return sig(np.dot(self.weights, phi_n.T))
 
     """

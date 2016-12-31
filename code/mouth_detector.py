@@ -36,6 +36,7 @@ def detect_mouth(image):
 	bigMouthSize = 0
 	for mouth in mouths:
 		if(mouth[0][2] * mouth[0][3] > bigMouthSize and
+		   mouth[0][1] + mouth[0][3] < bigFace[0][1] + bigFace[0][3] and
 		   mouth[0][1] > bigFace[0][1] + bigFace[0][3] / 2):
 			bigMouth = mouth
 			bigMouthSize = mouth[0][2] * mouth[0][3]

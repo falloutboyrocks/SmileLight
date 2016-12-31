@@ -30,7 +30,12 @@ while(True):
 		continue
 	cv.SaveImage('mouth.jpg', fmouth)
 	cv2.imshow('frame',frame)
-	print lr.predict(vectorize('mouth.jpg'))	
+	
+	if lr.predict(vectorize('mouth.jpg')):
+		print ': )'
+	else:
+		print ': |'
+		
 	if cv2.waitKey(1) == 27:	# ESC
 		break
 

@@ -24,6 +24,8 @@ with open('neutral.csv', 'rb') as csvfile:
 	for rec in csv.reader(csvfile, delimiter='	'):
         	neutralfiles += rec
 
+print(len(smilefiles))
+print(len(neutralfiles))
 phi = np.zeros((len(smilefiles) + len(neutralfiles), dim))
 labels = []
 
